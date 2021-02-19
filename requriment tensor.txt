@@ -1,0 +1,4 @@
+https://developer.nvidia.com/cuda-11.1.0-download-archive 
+
+
+https://developer.nvidia.com/cudnn
