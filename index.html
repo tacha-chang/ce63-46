@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+  <title>Document</title>
+  <link rel="stylesheet" href="static/css/style.css" />
+</head>
+
+<body>
+  <section class="form-section">
+    <h1>   LOOK AT THE CAMERA, PLEASE. </h1>
+
+    <div class="form-wrapper">
+      <form>
+
+        <img id="bg" class="center" src="{{ url_for('video_feed') }}" style="width:500px;height:500px;">
+        <!-- <h3>{{ url_for('verify') }}</h3>
+        <a href={{ url_for('index') }}>Index</a> -->
+        <!-- <li><a href="{{ url_for('verify') }}">Home</a></li> -->
+      </form>
+        <h class="btn-login" color =none >
+    </div>
+  </section>
+  <ul class="squares">
+  </ul>
+
+  <script src="script.js"></script>
+</body>
+
+</html>
+<!--    <h1 align="center">LOOK AT THE CAMERA, PLEASE.</h1>
+    <img id="bg" class="center" src="{{ url_for('video_feed') }}">
+  -->
